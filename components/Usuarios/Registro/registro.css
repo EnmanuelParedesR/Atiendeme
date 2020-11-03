@@ -567,7 +567,7 @@ input {
 }
 
 .card-3 .card-heading {
-    background: url("../../assets/images/dentista-nina.jpg") center;
+    background: url("../../../assets/images/laura.jpeg") top left/cover no-repeat;
     display: table-cell;
     width: 50%;
 }

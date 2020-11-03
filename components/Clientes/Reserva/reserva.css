@@ -567,7 +567,7 @@ input {
 }
 
 .card-3 .card-heading {
-    background: url("../../assets/images/laura.jpeg") top left/cover no-repeat;
+    background: url("../../../assets/images/laura.jpeg") top left/cover no-repeat;
     display: table-cell;
     width: 50%;
 }
@@ -594,4 +594,8 @@ input {
         padding: 37px 30px;
         padding-bottom: 45px;
     }
+}
+
+.signup-step-container {
+    background-color: whitesmoke
 }
