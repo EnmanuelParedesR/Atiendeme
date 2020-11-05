@@ -599,3 +599,66 @@ input {
 .signup-step-container {
     background-color: whitesmoke
 }
+
+.success-page-cont {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: flex;
+}
+
+.success-card .card-body {
+    padding: 50px 20px;
+}
+
+.success-cont {
+    text-align: center;
+}
+
+.success-cont i {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    color: #fff;
+    width: 60px;
+    height: 60px;
+    border: 2px solid #09e5ab;
+    border-radius: 50%;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    justify-content: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    font-size: 30px;
+    margin-bottom: 30px;
+    background-color: #09e5ab;
+}
+
+.success-cont h3 {
+    font-size: 24px;
+}
+
+.success-cont p {
+    margin-bottom: 30px;
+}
+
+.success-cont strong {
+    font-weight: 600;
+}
+
+.view-inv-btn {
+    color: #5bc0de;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 0px 30px;
+    border-color: #528bc7;
+}
+
+.view-inv-btn:hover {
+    color: #000000
+}
+
+.view-inv-btn:focus {
+    color: #000000 !important
+}

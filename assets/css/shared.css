@@ -246,13 +246,13 @@ button:focus,
 }
 
 .connecting-line {
-    height: 2px;
+    height: 3px;
     background: #e0e0e0;
     position: absolute;
     margin: 0 auto;
     left: 0;
     right: 0;
-    top: 15px;
+    top: 25px;
     z-index: 1;
 }
 
@@ -266,9 +266,9 @@ button:focus,
 }
 
 span.round-tab {
-    width: 30px;
-    height: 30px;
-    line-height: 30px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
     display: inline-block;
     border-radius: 50%;
     background: #fff;
@@ -287,17 +287,17 @@ span.round-tab i {
 }
 
 .wizard li.active span.round-tab {
-    background: #0db02b;
+    background: #5bc0de;
     color: #fff;
-    border-color: #0db02b;
+    border-color: #5bc0de;
 }
 
 .wizard li.active span.round-tab i {
-    color: #5bc0de;
+    color: #000000;
 }
 
 .wizard .nav-tabs>li.active>a i {
-    color: #0db02b;
+    color: #000000;
 }
 
 .wizard .nav-tabs>li {
@@ -329,13 +329,13 @@ span.round-tab i {
 
 .wizard .nav-tabs>li a i {
     position: absolute;
-    top: 43px;
+    top: 23px;
     font-style: normal;
     font-weight: 400;
     white-space: nowrap;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 12px;
+    font-size: 25px;
     font-weight: 700;
     color: #000;
 }
@@ -363,7 +363,7 @@ span.round-tab i {
 }
 
 .next-step {
-    background-color: #0db02b;
+    background-color: #5bc0de;
 }
 
 .skip-btn {
@@ -446,9 +446,9 @@ span.round-tab i {
     padding: 10px 15px;
     width: 100%;
     display: inline-block;
-    background-color: #f5f5f5;
+    background-color: #81d2da;
     position: relative;
-    color: #565656;
+    color: white;
     font-weight: 400;
     border-radius: 4px;
 }
@@ -549,9 +549,6 @@ input[type="checkbox"]:checked::before {
     .sign-content h3 {
         font-size: 40px;
     }
-    .wizard .nav-tabs>li a i {
-        display: none;
-    }
     .signup-logo-header .navbar-toggle {
         margin: 0;
         margin-top: 8px;
@@ -562,4 +559,14 @@ input[type="checkbox"]:checked::before {
     .signup-logo-header .header-flex {
         display: block;
     }
+}
+
+.input-icon-general {
+    float: right;
+    margin-right: 15px;
+    margin-top: -29px;
+    font-size: 20px;
+    position: relative;
+    z-index: 2;
+    color: #5bc0de;
 }
